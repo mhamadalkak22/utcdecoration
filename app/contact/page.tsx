@@ -56,12 +56,12 @@ export default function ContactPage() {
                 key={i}
                 className="absolute w-2 h-2 bg-white rounded-full"
                 initial={{
-                  x: Math.random() * window.innerWidth,
-                  y: Math.random() * window.innerHeight,
+                  x: Math.random() * 1200,
+                  y: Math.random() * 800,
                   opacity: 0,
                 }}
                 animate={{
-                  y: [null, Math.random() * window.innerHeight],
+                  y: [null, Math.random() * 800],
                   opacity: [0, 1, 0],
                 }}
                 transition={{

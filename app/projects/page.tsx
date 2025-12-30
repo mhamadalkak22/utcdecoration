@@ -73,12 +73,12 @@ export default function ProjectsPage() {
                 key={i}
                 className="absolute w-2 h-2 bg-white rounded-full"
                 initial={{
-                  x: Math.random() * (typeof window !== 'undefined' ? window.innerWidth : 1000),
-                  y: Math.random() * (typeof window !== 'undefined' ? window.innerHeight : 1000),
+                  x: Math.random() * 1200,
+                  y: Math.random() * 800,
                   opacity: 0,
                 }}
                 animate={{
-                  y: [null, Math.random() * (typeof window !== 'undefined' ? window.innerHeight : 1000)],
+                  y: [null, Math.random() * 800],
                   opacity: [0, 1, 0],
                 }}
                 transition={{
