@@ -26,28 +26,28 @@ export function Header() {
           <nav className="hidden md:flex items-center gap-6 lg:gap-8">
             <Link
               href="/"
-              className="text-white hover:text-blue-400 transition-colors font-bold text-[15px] lg:text-[16px] uppercase tracking-normal"
+              className="text-white hover:text-blue-400 transition-all duration-300 font-bold text-[15px] lg:text-[16px] uppercase tracking-normal relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
               style={{ fontFamily: "Arial, sans-serif" }}
             >
               HOME
             </Link>
             <Link
               href="/about"
-              className="text-white hover:text-blue-400 transition-colors font-bold text-[15px] lg:text-[16px] uppercase tracking-normal"
+              className="text-white hover:text-blue-400 transition-all duration-300 font-bold text-[15px] lg:text-[16px] uppercase tracking-normal relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
               style={{ fontFamily: "Arial, sans-serif" }}
             >
               ABOUT US
             </Link>
             <Link
               href="/projects"
-              className="text-white hover:text-blue-400 transition-colors font-bold text-[15px] lg:text-[16px] uppercase tracking-normal"
+              className="text-white hover:text-blue-400 transition-all duration-300 font-bold text-[15px] lg:text-[16px] uppercase tracking-normal relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
               style={{ fontFamily: "Arial, sans-serif" }}
             >
               PROJECTS
             </Link>
             <Link
               href="/contact"
-              className="text-white hover:text-blue-400 transition-colors font-bold text-[15px] lg:text-[16px] uppercase tracking-normal"
+              className="text-white hover:text-blue-400 transition-all duration-300 font-bold text-[15px] lg:text-[16px] uppercase tracking-normal relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
               style={{ fontFamily: "Arial, sans-serif" }}
             >
               CONTACT
@@ -68,7 +68,7 @@ export function Header() {
             <div className="flex flex-col gap-1">
               <Link
                 href="/"
-                className="text-white hover:text-blue-400 hover:bg-gray-600 transition-colors py-3 px-2 rounded-lg font-bold uppercase tracking-normal"
+                className="text-white hover:text-blue-400 hover:bg-gray-600 transition-all duration-300 py-3 px-2 rounded-lg font-bold uppercase tracking-normal relative after:content-[''] after:absolute after:left-2 after:bottom-2 after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-[calc(100%-16px)]"
                 onClick={() => setIsMenuOpen(false)}
                 style={{ fontFamily: "Arial, sans-serif" }}
               >
@@ -76,7 +76,7 @@ export function Header() {
               </Link>
               <Link
                 href="/about"
-                className="text-white hover:text-blue-400 hover:bg-gray-600 transition-colors py-3 px-2 rounded-lg font-bold uppercase tracking-normal"
+                className="text-white hover:text-blue-400 hover:bg-gray-600 transition-all duration-300 py-3 px-2 rounded-lg font-bold uppercase tracking-normal relative after:content-[''] after:absolute after:left-2 after:bottom-2 after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-[calc(100%-16px)]"
                 onClick={() => setIsMenuOpen(false)}
                 style={{ fontFamily: "Arial, sans-serif" }}
               >
@@ -84,7 +84,7 @@ export function Header() {
               </Link>
               <Link
                 href="/projects"
-                className="text-white hover:text-blue-400 hover:bg-gray-600 transition-colors py-3 px-2 rounded-lg font-bold uppercase tracking-normal"
+                className="text-white hover:text-blue-400 hover:bg-gray-600 transition-all duration-300 py-3 px-2 rounded-lg font-bold uppercase tracking-normal relative after:content-[''] after:absolute after:left-2 after:bottom-2 after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-[calc(100%-16px)]"
                 onClick={() => setIsMenuOpen(false)}
                 style={{ fontFamily: "Arial, sans-serif" }}
               >
@@ -92,7 +92,7 @@ export function Header() {
               </Link>
               <Link
                 href="/contact"
-                className="text-white hover:text-blue-400 hover:bg-gray-600 transition-colors py-3 px-2 rounded-lg font-bold uppercase tracking-normal"
+                className="text-white hover:text-blue-400 hover:bg-gray-600 transition-all duration-300 py-3 px-2 rounded-lg font-bold uppercase tracking-normal relative after:content-[''] after:absolute after:left-2 after:bottom-2 after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-[calc(100%-16px)]"
                 onClick={() => setIsMenuOpen(false)}
                 style={{ fontFamily: "Arial, sans-serif" }}
               >

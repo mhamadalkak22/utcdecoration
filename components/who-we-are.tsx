@@ -107,7 +107,7 @@ export default function WhoWeAre() {
           transition={{ duration: 0.6 }}
         >
           <motion.p
-            className="text-[12px] font-semibold tracking-widest text-[#0B5FDD] flex items-center gap-2"
+            className="text-[15px] font-semibold tracking-widest text-[#0B5FDD] flex items-center gap-2"
             initial={{ opacity: 0, y: -8 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -117,7 +117,7 @@ export default function WhoWeAre() {
             WHO WE ARE
           </motion.p>
           <motion.h2
-            className="mt-3 text-[26px] sm:text-[32px] md:text-[36px] font-bold text-[#1F2937]"
+            className="mt-3 text-[30px] sm:text-[36px] md:text-[42px] font-bold text-[#1F2937]"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -126,7 +126,7 @@ export default function WhoWeAre() {
             Preparing for your success
           </motion.h2>
           <motion.p
-            className="mt-3 max-w-2xl text-[13px] sm:text-[14px] text-[#6B7280] leading-relaxed"
+            className="mt-3 max-w-2xl text-[15px] sm:text-[16px] text-[#6B7280] leading-relaxed"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -138,7 +138,7 @@ export default function WhoWeAre() {
           </motion.p>
 
           <motion.div
-            className="mt-4 flex items-center gap-2 text-[13px] sm:text-[14px] font-medium"
+            className="mt-4 flex items-center gap-2 text-[15px] sm:text-[16px] font-medium"
             initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

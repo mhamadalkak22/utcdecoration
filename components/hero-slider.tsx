@@ -104,10 +104,6 @@ export function HeroSlider() {
           </div>
         </div>
 
-        {/* Navigation */}
-        <CarouselPrevious className="left-4 top-1/2 -translate-y-1/2 border-white/40 bg-white/20 text-white backdrop-blur-sm hover:bg-white/30 z-20" />
-        <CarouselNext className="right-4 top-1/2 -translate-y-1/2 border-white/40 bg-white/20 text-white backdrop-blur-sm hover:bg-white/30 z-20" />
-
         {/* Dots */}
         <div className="pointer-events-auto absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-20">
           {Array.from({ length: count }).map((_, i) => (
